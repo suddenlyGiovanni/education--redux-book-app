@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
 class BookList extends Component {
@@ -16,17 +15,15 @@ class BookList extends Component {
     return (
       <div>
         <h1>hello world</h1>
-        <ul className="list-group col-sm-4">{this.renderList}</ul>
+        <ul className="list-group col-sm-4">{this.renderList()}</ul>
       </div>
     );
   }
 }
 
-BookList.propTypes = {};
-
 function mapStateToProps(state) {
   return {
-    books: state.book,
+    books: state.books,
   };
 }
 
