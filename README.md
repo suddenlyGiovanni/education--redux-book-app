@@ -1,3 +1,6 @@
+A project of the excellent course  "Modern React with Redux" by @StephenGrider
+https://github.com/StephenGrider/ReduxCasts
+
 # ReduxSimpleStarter
 
 Interested in learning [Redux](https://www.udemy.com/react-redux/)?
